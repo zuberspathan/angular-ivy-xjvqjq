@@ -1,0 +1,14 @@
+.chart-container {
+    float: left;
+    height: auto;
+}
+
+.chart-container-width {
+    width: 33%;
+}
+
+@media only screen and (max-width: 600px){
+    .chart-container-width{
+        width: 100% !important;
+    }
+}
